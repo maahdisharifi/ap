@@ -215,14 +215,14 @@ Phase 2 introduces enhanced features, including improved player management, tran
 - **File I/O**: The system uses CSV files to store and retrieve player stats, team data, and performance updates, allowing persistence across sessions.
 ### File Structure
 
-The project has the following directory structure:
-    data/
-    │
-    ├── premier_league.csv           # Contains player data: names, positions, stats
-    ├── weeks_stats/                 # Directory for weekly performance stats (week_1.csv, week_2.csv, etc.)
-    │   ├── week_1.csv
-    │   ├── week_2.csv
-    │   └── week_3.csv
+The project has the following directory structure:  
+        data/  
+        │
+        ├── premier_league.csv           # Contains player data: names, positions, stats  
+        ├── weeks_stats/                 # Directory for weekly performance stats (week_1.csv, week_2.csv, etc.)  
+        │   ├── week_1.csv  
+        │   ├── week_2.csv  
+        │   └── week_3.csv  
     
 
 ## Note:
