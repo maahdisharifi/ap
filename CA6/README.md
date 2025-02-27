@@ -2,30 +2,9 @@
 
 ## Overview
 
-This project allows users to manage their football fantasy teams via a command-line interface (CLI). It features the creation of teams, player management, budget management, weekly performance tracking, and player transfers. The system has been built and extended to provide more advanced features and dynamic team management, as well as seamless player transfers.
+This project allows users to manage their football fantasy teams via a command-line interface (CLI). It features the creation of teams, player management, budget management, weekly performance tracking, and player transfers. The system has been built and extended to provide more advanced features and dynamic team management, as well as seamless player transfers.  
+Given the scale of the project, it was developed in two serial phases, allowing us to build upon the initial foundation and progressively introduce more advanced features. To ensure the project could be effectively scaled, we followed clean code practices, including the use of Object-Oriented Programming (OOP) principles to structure the code and maintain readability and extensibility.
 
-## Project Features
-
-### User Registration and Authentication
-
-- **POST signup**: Register a new fantasy football team by providing a team name and password.
-- **POST login**: Log into an existing team by authenticating with a team name and password.
-
-### Team Management
-
-- **GET show_team**: View the current roster, including detailed stats such as goals, assists, and clean sheets.
-- **GET show_budget**: Displays the current budget available for purchasing players.
-
-### Player Management
-
-- **GET players**: Retrieve available players along with their stats (position, price, goals, assists, clean sheets).
-- **POST buy_player**: Buy a player and add them to your roster.
-- **POST sell_player**: Sell a player and remove them from your team.
-
-### Player Stats and Weekly Updates
-
-- **GET week_stats**: View the stats for the current week, including match results, goals scored, assists, and clean sheets.
-- **GET team_performance**: View your team’s performance over time, based on player stats and weekly updates.
 
 ## Phase 1: CLI Commands
 
