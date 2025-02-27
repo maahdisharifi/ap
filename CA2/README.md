@@ -27,6 +27,20 @@ This project features a recursive C++ solution for counting the number of distin
 - Recursive backtracking solution to calculate distinct paths in a grid.
 - Ensures paths are safe and within grid boundaries.
 - Tracks all valid paths from the starting point to the destination.
+## Example
+
+### Input:
+
+    3
+
+
+### Output:
+
+    5
+
+
+### Explanation:
+The program calculates and outputs the number of distinct paths from the top-left to the bottom-right corner in a 3x3 grid.
 
 # Question 4: Reversi Game Solver in C++
 
@@ -38,3 +52,27 @@ This C++ project implements a solver for the game of Reversi. Using a backtracki
 - Uses backtracking to solve the game and determine optimal moves.
 - Outputs the sequence of moves required to solve the puzzle.
 - Backtracking Algorithm
+
+## Example
+
+### Input:
+
+    XXOOOXX
+    XXOOOXX
+    OOOOOOO
+    OONOONO
+    OOOONNO
+    XXONOXX
+    XXOOOXX
+
+
+### Output:
+
+    E6 LEFT
+    F4 UP
+    D3 RIGHT
+    D6 LEFT
+
+
+### Explanation:
+The Reversi solver uses a backtracking algorithm to find the optimal moves. Given the initial bo
