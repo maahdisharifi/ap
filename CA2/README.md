@@ -1,3 +1,15 @@
+# Recursive Problem Solving in C++
+
+This collection of four C++ projects demonstrates the application of recursive techniques to solve various algorithmic challenges. Recursion, a method where a function calls itself with modified parameters, is an essential concept in computer science, particularly useful for problems that can be broken down into smaller subproblems. The projects showcase the power of recursion to solve real-world problems efficiently and elegantly.
+
+## Key Features:
+- **Recursive Algorithms**: Each project utilizes recursion to break down complex problems into simpler, manageable subproblems.
+- **Diverse Applications**: The projects span a range of problems, from string manipulation and array processing to pathfinding and game-solving.
+- **C++ Implementation**: All projects are implemented in C++, utilizing standard libraries to facilitate recursion, input/output handling, and basic algorithms.
+
+---
+
+
 # Question 0: String Capitalization in C++
 
 ## Description
@@ -75,4 +87,4 @@ This C++ project implements a solver for the game of Reversi. Using a backtracki
 
 
 ### Explanation:
-The Reversi solver uses a backtracking algorithm to find the optimal moves. Given the initial bo
+The Reversi solver uses a backtracking algorithm to find the optimal moves. Given the initial board
