@@ -216,17 +216,14 @@ Phase 2 introduces enhanced features, including improved player management, tran
 ### File Structure
 
 The project has the following directory structure:
-project_root/
-│
-├── premier_league.csv           # Contains player data: names, positions, stats
-├── weeks_stats/                 # Directory for weekly performance stats (week_1.csv, week_2.csv, etc.)
-│   ├── week_1.csv
-│   ├── week_2.csv
-│   └── week_3.csv
-│
-├── main.cpp                     # Main program file implementing the CLI
-├── Makefile                     # Build instructions for the project
-└── futballFantasy.out           # Output executable for running the program
+    data/
+    │
+    ├── premier_league.csv           # Contains player data: names, positions, stats
+    ├── weeks_stats/                 # Directory for weekly performance stats (week_1.csv, week_2.csv, etc.)
+    │   ├── week_1.csv
+    │   ├── week_2.csv
+    │   └── week_3.csv
+    
 
 ## Note:
 Only Phase 2 codes will be uploaded as the final version. Phase 2 builds upon the foundational features developed in Phase 1. It introduces more advanced management features, including transfer windows, dynamic team performance tracking, and integration with player statistics.
