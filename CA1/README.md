@@ -51,9 +51,9 @@ This C++ project is a personal memory logging application that allows users to r
 
 **Input**:
 
-start_day 24/9/2022 Today was a long day I do not even know where to begin
-start_day 25/9/2022 Boring day
-show_the_longest_day
+    start_day 24/9/2022 Today was a long day I do not even know where to begin
+    start_day 25/9/2022 Boring day
+    show_the_longest_day
 
 
 **Output**:
