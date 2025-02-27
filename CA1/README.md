@@ -16,47 +16,44 @@ This C++ project is a personal memory logging application that allows users to r
 - **Sentiment Analysis**: Sentiment analysis is performed using a list of positive words to determine the most "positive" day.
 
 ## Usage:
-1. **To start a new day log**:
-   ```bash
-   start_day day/month/year
+- **To start a new day log**:
+    ```
+    start_day day/month/year
+    ```
+    Followed by the memory entry for that day.
 
-Followed by the memory entry for that day.
+- **To view a day's entry**:
+    ```
+    show_day day/month/year
+    ```
 
-    To view a day's entry:
+- **To view the longest day (based on memory length)**:
+    ```
+    show_the_longest_day
+    ```
 
-show_day day/month/year
-
-To view the longest day (based on memory length):
-
-show_the_longest_day
-
-To determine the best day (based on positive word occurrence):
-
+- **To determine the best day (based on positive word occurrence)**:
+    ```
     show_the_best_day
+    ```
 
-Code Overview:
+## Code Overview:
+- The program uses a `struct` (`info`) to store memory data, including the date, caption, and word occurrences.
+- It provides a comparison function to determine which day is the longest or the best based on sentiment analysis.
+- A basic file handling system is used to load and count positive words from a file (`positive-words.txt`).
 
-    The program uses a struct (info) to store memory data, including the date, caption, and word occurrences.
-    It provides a comparison function to determine which day is the longest or the best based on sentiment analysis.
-    A basic file handling system is used to load and count positive words from a file (positive-words.txt).
+## How to Run:
+1. Compile the code using a C++ compiler (e.g., `g++`).
+2. Provide input through the terminal as described in the usage section.
+3. Ensure the `positive-words.txt` file is available in the same directory for sentiment analysis.
 
-How to Run:
+## Example Input and Output:
 
-    Compile the code using a C++ compiler (e.g., g++).
-    Provide input through the terminal as described in the usage section.
-    Ensure the positive-words.txt file is available in the same directory for sentiment analysis.
+**Input**:
 
-Example Input and Output:
+start_day 24/9/2022 Today was a long day I do not even know where to begin start_day 25/9/2022 Boring day show_the_longest_day
 
-Input:
 
-start_day 24/9/2022
-Today was a long day I do not even know where to begin
-start_day 25/9/2022
-Boring day
-show_the_longest_day
+**Output**:
 
-Output:
-
-24/9/2022
-Today was a long day I do not even know where to begin
+24/9/2022 Today was a long day I do not even know where to begin
