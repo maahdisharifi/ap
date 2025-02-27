@@ -58,4 +58,4 @@ This C++ project is a personal memory logging application that allows users to r
 
 **Output**:
 
-24/9/2022 Today was a long day I do not even know where to begin
+    24/9/2022 Today was a long day I do not even know where to begin
