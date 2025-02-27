@@ -217,7 +217,7 @@ Phase 2 introduces enhanced features, including improved player management, tran
 
 The project has the following directory structure:  
         data/  
-        │
+        │  
         ├── premier_league.csv           # Contains player data: names, positions, stats  
         ├── weeks_stats/                 # Directory for weekly performance stats (week_1.csv, week_2.csv, etc.)  
         │   ├── week_1.csv  
